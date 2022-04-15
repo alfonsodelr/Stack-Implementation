@@ -2,7 +2,7 @@
 #include <iostream>
 
 template<class ItemType>
-bool Stack<ItemType>::isEmpty() {
+bool Stack<ItemType>::isEmpty() const{
 
 }
 
