@@ -34,7 +34,7 @@ public:
     virtual ItemType peek() const = 0;
 
     /** Destroys this stack and frees its assigned memory. */
-    virtual ~StackInterface() { std::cout << "Destructing base\n"; }
+    virtual ~StackInterface() {}
 }; // end StackInterface
 
 #endif
